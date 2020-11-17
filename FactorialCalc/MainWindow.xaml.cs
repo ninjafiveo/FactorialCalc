@@ -46,16 +46,22 @@ namespace FactorialCalc
 
             // Display Answer
             xResponeBlock.Text = ($"{number}! =");
-            xResponeBlock.FontSize = 32;
+            xResponeBlock.FontSize = 24;
             xAnswerBlock.Text = factorial.ToString();
         }
 
 
         public void Permutations()
         {
+            //TODO: Write Formulate to out put the permutation of 2 numbers. Be sure to utilize the code from the Factorial() above to help you solve the problem. 
 
         }
-        
+
+        public void Combinations()
+        {
+            //TODO: Write Formulate to out put the combination of 2 numbers. Be sure to utilize the code from the Factorial() above to help you solve the problem.\
+        }
+
 
         private void xExitBtn_Click(object sender, RoutedEventArgs e)
         {
